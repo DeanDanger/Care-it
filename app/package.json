@@ -1,0 +1,21 @@
+{
+  "fitbit": {
+    "appUUID": "aafc165d-3c3e-42fb-aaed-6e7eaf40edba",
+    "appType": "app",
+    "appDisplayName": "T",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#f44336",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "T"
+      }
+    }
+  }
+}

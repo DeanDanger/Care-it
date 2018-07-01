@@ -1,0 +1,25 @@
+<svg>
+  
+  <defs>
+    
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="/mnt/sysassets/widgets_common.gui" />
+    
+    <link rel="import" href="/mnt/sysassets/widgets/baseview_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/scrollview_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/push_button_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/square_button_widget.gui" />
+    
+  
+    <symbol id="frames" href="#sprite-image">
+      
+      <animate id="anim" attributeName="value" begin="enable"
+               from="0" to="7" dur="1"repeatDur="2" repeatCount="indefinite"/>
+      
+      <image href="Seed_small_idle/Seed_Small_0.png" />
+      
+    </symbol>
+    
+  </defs>
+
+</svg>

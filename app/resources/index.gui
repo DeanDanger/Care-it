@@ -1,0 +1,43 @@
+<svg>
+  
+  <svg id="main">
+
+    <image id="center" href="seed_background.png" load="sync"/>
+    <use id="myanimation" href="#frames" width="45%" height="45%" x="30%" y="35%"/>
+
+    <use id="fight" href="#square-button" x="0%" y="0%" width="40%" height="25%" fill="fb-red">
+    <set href="#text" attributeName="text-buffer" to="Fight!" />
+    </use>
+    
+    <use id="train" href="#square-button" x="0%" y="20%" width="40%" height="25%" fill="fb-red">
+    <set href="#text" attributeName="text-buffer" to="Train" />
+    </use>
+    
+    <use id="stats" href="#square-button" x="0%" y="40%" width="40%" height="25%" fill="fb-red">
+    <set href="#text" attributeName="text-buffer" to="Stats" />
+    </use>
+    
+  </svg>
+  
+  <svg id="fightt" visibility="hidden">
+  
+    <image href="Seed_Hatching/sprite_00.png" load="sync" />
+    <text x="30%" y="50%-40" width="100%">asdsadas</text>
+    
+  </svg>
+  
+  <svg id="trainn" visibility="hidden">
+  
+    <image href="Seed_Hatching/sprite_00.png" load="sync" />
+    <text x="30%" y="50%-40" width="100%">asdsadas</text>
+    
+  </svg>
+  
+  <svg id="statss" visibility="hidden">
+  
+    <image href="Seed_Hatching/sprite_00.png" load="sync" />
+    <text x="30%" y="50%-40" width="100%">asdsadas</text>
+    
+  </svg>
+  
+</svg>

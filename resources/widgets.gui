@@ -1,0 +1,108 @@
+<svg>
+ 
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="/mnt/sysassets/widgets_common.gui" />
+    <!-- Additional Imports -->
+    <link rel="import" href="/mnt/sysassets/widgets/square_button_widget.gui" />
+
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="/mnt/sysassets/widgets_common.gui" />
+
+    <link rel="import" href="/mnt/sysassets/widgets/baseview_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/scrollview_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/baseview_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/panoramaview_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/pagination_dots.gui" />
+
+
+    <symbol id="frames" href="#sprite-image">
+
+      <animate id="anim00" attributeName="value" begin="enable"
+               from="0" to="7" dur="1"repeatDur="2" repeatCount="indefinite"/>
+
+      <image href="Seed_small_idle/Seed_Small_0.png" />
+
+    </symbol>
+
+    <symbol id="frames2" href="#sprite-image">
+
+      <animate id="anim01" attributeName="value" begin="enable"
+               from="0" to="2" dur="1"repeatDur="2" repeatCount="indefinite"/>
+      
+      <image href="Seed_Large_Idle/sprite_0.png" />
+
+
+    </symbol>
+    
+    <symbol id="frames3" href="#sprite-image">
+
+      <animate id="anim02" attributeName="value" begin="enable"
+               from="0" to="19" dur="3"   />
+      <image href="Seed_Hatching/sprite_00.png" />
+
+    </symbol>
+    
+    <symbol id="frames4" href="#sprite-image">
+
+      <animate id="anim03" attributeName="value" begin="enable"
+               from="0" to="9" dur=".5" repeatCount="indefinite"/>
+      
+      
+      <image href="Entity_Carrot/Idle/sprite_0.png" />
+
+    </symbol>
+    
+    <symbol id="frames5" href="#sprite-image">
+
+      <animate id="anim04" attributeName="value" begin="enable"
+               from="0" to="7" dur="1" repeatCount="indefinite"/>
+      
+      
+      <image href="Entity_Cactus/Idle/sprite_0.png" />
+
+    </symbol>
+    
+    <symbol id="frames6" href="#sprite-image">
+
+      <animate id="anim05" attributeName="value" begin="enable"
+               from="0" to="5" dur="1" repeatCount="indefinite"/>
+      
+      
+      <image href="Entity_Carrot_Train_Speed/sprite_0.png" />
+
+    </symbol>
+    
+    <symbol id="frames7" href="#sprite-image">
+
+      <animate id="anim06" attributeName="value" begin="enable"
+               from="0" to="9" dur="2" repeatCount="indefinite"/>
+      
+      
+      <image href="Entity_Carrot_Train_Defense/sprite_0.png" />
+
+    </symbol>
+    
+    <symbol id="frames8" href="#sprite-image">
+
+      <animate id="anim07" attributeName="value" begin="enable"
+               from="0" to="4" dur="2" repeatCount="indefinite"/>
+      
+      
+      <image href="Entity_Carrot_Train_Hp/sprite_0.png" />
+
+    </symbol>
+    
+  <symbol id="bckg" href="#sprite-image">
+
+      <animate id="anim08" attributeName="value" begin="enable"
+               from="0" to="0" dur="1"repeatDur="2" repeatCount="indefinite"/>
+      
+      <image href="seed_background_0.png" />
+
+
+    </symbol>
+  </defs>
+
+</svg>

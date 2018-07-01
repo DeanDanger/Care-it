@@ -1,0 +1,64 @@
+<svg>
+
+  <use href="#scrollview">
+
+    <use href="#scrollview-item">
+    
+      
+      
+      
+
+    </use>
+    
+    <use href="#scrollview-item">
+      <image id="center" href="seed_background.png" load="sync"/>
+      
+    </use>
+
+  </use>
+ 
+  <use id="container" href="#panoramaview">
+    <use id="item1" href="#panoramaview-item">
+      <use id="myanimation7" href="#bckg" width="80%" height="80%" x="7%" y="15%"/>
+      <use id="myanimation" href="#frames" width="60%" height="60%" x="20%" y="20%" load="sync"/>
+      <!--<rect width="50%" height="50%" fill="red" />-->
+    </use>
+    <use id="item2" href="#panoramaview-item">
+      <use id="myanimation7" href="#bckg" width="80%" height="80%" x="7%" y="15%"/>
+      <use id="myanimation2" href="#frames2" width="80%" height="80%" x="7%" y="15%"/>
+    </use>
+    <use id="item3" href="#panoramaview-item">
+      <use id="myanimation7" href="#bckg" width="80%" height="80%" x="23%" y="15%"/>
+      <use id="myanimation3" href="#frames4" width="80%" height="80%" x="25%" y="15%"/>
+
+    </use>
+    <use id="item4" href="#panoramaview-item">
+      <use id="myanimation7" href="#bckg" width="80%" height="80%" x="7%" y="15%"/>
+      <use id="myanimation4" href="#frames5" width="80%" height="80%" x="7%" y="15%"/>
+      </use>
+    <use id="item5" href="#panoramaview-item">
+      <use id="myanimation7" href="#bckg" width="80%" height="80%" x="7%" y="15%"/>
+      <use id="myanimation5" href="#frames6" width="80%" height="80%" x="7%" y="15%"/>
+    </use>
+    <use id="item6" href="#panoramaview-item">
+      <use id="myanimation7" href="#bckg" width="80%" height="80%" x="7%" y="15%"/>
+      <use id="myanimation6" href="#frames7" width="80%" height="80%" x="7%" y="15%"/>
+      </use>
+    <use id="item7" href="#panoramaview-item">
+      <use id="myanimation7" href="#bckg" width="80%" height="80%" x="7%" y="15%"/>
+      <use id="myanimation8" href="#frames6" width="80%" height="80%" x="7%" y="15%"/>
+    </use>
+
+    <!-- Have enough pagination dots for your slides (extras are hidden) -->
+    <use id="pagination-dots" href="#pagination-widget" y="9">
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-highlight-dot" />
+    </use>
+
+  </use>
+</svg>
